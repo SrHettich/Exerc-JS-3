@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRÁTICA 4</title>
+    <style>
+        body
+        {
+            background-color: aquamarine;
+            font: normal 18pt Arial;
+            text-align: center;
+        }
+        
+
+
+        section{
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            padding: 15px;
+            width: 500px;
+            height: 400px;
+            margin: auto;
+            text-align: left;
+            box-shadow: 3px 5px 10px;
+        }
+
+        footer{
+            font: normal 20pt italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CONTANDO...</h1>
+    </header>
+    <section>
+        <div>
+             <p>Início: <input type="number" name="start" id="start"></p>
+
+             <p>Fim: <input type="number" name="fim" id="fim"></p>
+
+             <p>Passo: <input type="number" name="pas" id="pas"></p>
+
+             <p><input type="button" value="Contar" onclick="contar()"></p>
+        </div>
+        <div id="res">
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Jean Eduardo</p>
+    </footer>
+    <script src="pratc4.js"></script>
+</body>
+</html>
